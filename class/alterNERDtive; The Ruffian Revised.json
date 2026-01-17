@@ -980,7 +980,7 @@
 			"page": 6,
 			"level": 2,
 			"entries": [
-				"The pain you endure grants you remarkable bursts of strength. When taking the {@action Attack|XPHB} Action, you can expend two {@classFeature Grit|Ruffian|alterNERDtiveTheRuffianRevised|1|alterNERDtiveTheRuffianRevised|Grit Points} to make an additional attack as part of that same Action. At 9th level you can expend four {@classFeature Grit|Ruffian|alterNERDtiveTheRuffianRevised|1|alterNERDtiveTheRuffianRevised|Grit Points} to make two additional attacks. At 17th level you can expend six {@classFeature Grit|Ruffian|alterNERDtiveTheRuffianRevised|1|alterNERDtiveTheRuffianRevised|Grit Points} Points to make three additional attacks."
+				"The pain you endure grants you remarkable bursts of strength. When taking the {@action Attack|XPHB} Action on your turn, you can expend two {@classFeature Grit|Ruffian|alterNERDtiveTheRuffianRevised|1|alterNERDtiveTheRuffianRevised|Grit Points} to make an additional attack as part of that same Action. At 9th level you can expend four {@classFeature Grit|Ruffian|alterNERDtiveTheRuffianRevised|1|alterNERDtiveTheRuffianRevised|Grit Points} to make two additional attacks. At 17th level you can expend six {@classFeature Grit|Ruffian|alterNERDtiveTheRuffianRevised|1|alterNERDtiveTheRuffianRevised|Grit Points} Points to make three additional attacks."
 			]
 		},
 		{
@@ -2825,8 +2825,8 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Whenever you use your {@classFeature Barrage|Ruffian|alterNERDtiveTheRuffianRevised|2} feature to gain additional attacks, you can instead use it to empower your {@subclassFeature Below the Belt|Ruffian|alterNERDtiveTheRuffianRevised|Opportunist|alterNERDtiveTheRuffianRevised|3} feature.",
-				"Each {@classFeature Grit|Ruffian|alterNERDtiveTheRuffianRevised|1|alterNERDtiveTheRuffianRevised|Grit Point} you spend increases the damage of your Below the Belt feature by {@dice 1d8}."
+				"Whenever you use your {@classFeature Barrage|Ruffian|alterNERDtiveTheRuffianRevised|2} feature to gain additional attacks, you can instead use it to empower your {@subclassFeature Below the Belt|Ruffian|alterNERDtiveTheRuffianRevised|Opportunist|alterNERDtiveTheRuffianRevised|3} feature. Each {@classFeature Grit|Ruffian|alterNERDtiveTheRuffianRevised|1|alterNERDtiveTheRuffianRevised|Grit Point} you spend increases the damage of your Below the Belt feature by {@dice 1d8}.",
+				"You can use this feature when you deal {@subclassFeature Below the Belt|Ruffian|alterNERDtiveTheRuffianRevised|Opportunist|alterNERDtiveTheRuffianRevised|3} damage on other creatures’ turns."
 			]
 		},
 		{
@@ -5596,6 +5596,18 @@
 										{
 											"type": "list",
 											"items": [
+												{
+													"type": "item",
+													"name": "v1.2",
+													"entries": [
+														{
+															"type": "list",
+															"items": [
+																"changed Barrage to only work on your own turn; Opportunist’s Make It Hurt still works on any turn"
+															]
+														}
+													]
+												},
 												{
 													"type": "item",
 													"name": "v1.1",
